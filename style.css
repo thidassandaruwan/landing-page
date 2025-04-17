@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: monospace;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 1rem 5rem;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.link-section {
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 1rem;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.links a{
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.links a:hover {
+    color: #1f2937;
+    background-color: #f5a4ff;
+}
+
+.hero-section {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}
+
+.buy-button {
+    background-color: #2859a7;
+    color: #f9faf8;
+    padding: 10px 20px;
+    border: #3882f6 solid;
+    border-radius: 10px;
+    max-width: max-content;
+    max-height: max-content;
+}
+
+.buy-button:hover {
+    background-color: #3882f6;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-image {
+    width: 700px;
+    border-radius: 15px;
+}
+
+.hero-image-section p {
+    font-size: x-small;
+    text-align: center;
+}
+
+.hero-image-section a {
+    padding: 5px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero-image-section a:hover {
+    color: #e5e7eb;
+    background-color: #2859a7;
+}
+
+.information {
+    color: #1f2937;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 2rem;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stats p {
+    font-size: 15px;
+}
+
+.stats img {
+    border: #3882f6 solid;
+    border-radius: 15px;
+}
+
+.stats:hover {
+    color: #f9faf8;
+    background-color: #6da4f9;
+    border: #3882f6 solid;
+}
+
+.quote-section {
+    color: #1f2937;
+    font-size: 30px;
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    align-self: center;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.call-to-action {
+    color: #f9faf8;
+    font-size: 20px;
+    margin: 100px;
+    padding: 30px;
+    border: #2859a7 solid;
+    border-radius: 20px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action h3 {
+    font-size: 30px;
+}
+
+.call-to-action .buy-button{
+    font-size: 25px;
+    border: #f9faf8 solid;
+}
+
+footer {
+    color: #e5e7eb;
+    text-align: center;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 20px;
+}
