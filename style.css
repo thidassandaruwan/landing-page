@@ -35,7 +35,7 @@ header {
 }
 
 .links a:hover {
-    color: #1f2937;
+    color: #974ea0;
     background-color: #f5a4ff;
 }
 
@@ -55,17 +55,20 @@ header {
 }
 
 .buy-button {
-    background-color: #2859a7;
-    color: #f9faf8;
+    color: #f5a4ff;
+    font-size: 20px;
+    background-color: #974ea0;
     padding: 10px 20px;
-    border: #3882f6 solid;
+    border: #974ea0 solid;
     border-radius: 10px;
     max-width: max-content;
     max-height: max-content;
 }
 
 .buy-button:hover {
-    background-color: #3882f6;
+    color: #974ea0;
+    background-color: #c382cc;
+    border: #974ea0 solid;
 }
 
 .hero-text h1 {
@@ -92,12 +95,12 @@ header {
 }
 
 .hero-image-section a:hover {
-    color: #e5e7eb;
-    background-color: #2859a7;
+    color: #fce9ff;
+    background-color: #974ea0;
 }
 
 .information {
-    color: #1f2937;
+    color: #974ea0;
 }
 
 .information h2 {
@@ -127,18 +130,18 @@ header {
 }
 
 .stats img {
-    border: #3882f6 solid;
+    border: #974ea0 solid;
     border-radius: 15px;
 }
 
 .stats:hover {
-    color: #f9faf8;
-    background-color: #6da4f9;
-    border: #3882f6 solid;
+    color: #974ea0;
+    background-color: #fce9ff;
+    border: #974ea0 solid;
 }
 
 .quote-section {
-    color: #1f2937;
+    color: #974ea0;
     font-size: 30px;
     background-color: #e5e7eb;
     padding: 100px;
@@ -156,13 +159,13 @@ header {
 }
 
 .call-to-action {
-    color: #f9faf8;
+    color: #974ea0;
     font-size: 20px;
     margin: 100px;
     padding: 30px;
-    border: #2859a7 solid;
+    border: #974ea0 solid;
     border-radius: 20px;
-    background-color: #3882f6;
+    background-color: #fce9ff;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -174,7 +177,6 @@ header {
 
 .call-to-action .buy-button{
     font-size: 25px;
-    border: #f9faf8 solid;
 }
 
 footer {
