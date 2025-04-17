@@ -54,6 +54,11 @@ header {
     align-items: start;
 }
 
+#god {
+    color: #c382cc;
+    font-style: italic;
+}
+
 .buy-button {
     color: #f5a4ff;
     font-size: 20px;
