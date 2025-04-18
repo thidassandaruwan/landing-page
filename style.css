@@ -60,7 +60,9 @@ header {
 }
 
 #god:hover {
-    color: #974ea0;
+    color: #f5a4ff;
+    padding: 1px 10px;
+    background: linear-gradient(180deg, transparent 60%, #974ea0 60%);
 }
 
 .buy-button {
